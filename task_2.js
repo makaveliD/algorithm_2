@@ -8,6 +8,7 @@
 
     while (x <= x_limit) {
         if (x < 2) {
+            algebraic_sum=0;
             for (let i = 2; i <= 6; i++) {
                 algebraic_sum += (Math.pow(i, 2) - x);
             }
